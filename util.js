@@ -1,6 +1,5 @@
 const validator = require('./node_modules/validator');
 const prompt = require('./node_modules/prompt-sync')();
-const password_matcher = require('./passwordMatch');
 const check = require('./passwordMatch');
 
 const validate = ((email)=>{
