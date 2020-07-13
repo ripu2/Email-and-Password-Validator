@@ -1,2 +1,4 @@
 const validate = require('./util')
-console.log(validate('abc@gmail.com'));
+const prompt = require('./node_modules/prompt-sync')();
+const email = prompt('Enter your Email ');
+console.log(validate(email));
